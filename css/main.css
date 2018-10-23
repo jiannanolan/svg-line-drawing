@@ -66,6 +66,134 @@ h1 {
 
 }
 
+#rainbow-indigo {
+  stroke-dasharray: 4px;
+  stroke-dashoffset: 2px;
+  animation: rainbow-indigo 15s ease infinite;
+}
+
+@keyframes rainbow-indigo {
+
+  0% {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dasharray: 4px;
+    stroke-dashoffset: 2px;
+  }
+
+}
+
+#rainbow-blue {
+  stroke-dasharray: 4px;
+  stroke-dashoffset: 2px;
+  animation: rainbow-blue 15s ease infinite;
+}
+
+@keyframes rainbow-blue {
+
+  0% {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dasharray: 4px;
+    stroke-dashoffset: 2px;
+  }
+
+}
+
+#rainbow-green {
+  stroke-dasharray: 4px;
+  stroke-dashoffset: 2px;
+  animation: rainbow-green 15s ease infinite;
+}
+
+@keyframes rainbow-green {
+
+  0% {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dasharray: 4px;
+    stroke-dashoffset: 2px;
+  }
+
+}
+
+#rainbow-yellow {
+  stroke-dasharray: 4px;
+  stroke-dashoffset: 2px;
+  animation: rainbow-yellow 15s ease infinite;
+}
+
+@keyframes rainbow-yellow {
+
+  0% {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dasharray: 4px;
+    stroke-dashoffset: 2px;
+  }
+
+}
+
+#rainbow-red {
+  stroke-dasharray: 4px;
+  stroke-dashoffset: 2px;
+  animation: rainbow-red 15s ease infinite;
+}
+
+@keyframes rainbow-red {
+
+  0% {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dasharray: 4px;
+    stroke-dashoffset: 2px;
+  }
+
+}
+
+
+#rainbow-orange {
+  stroke-dasharray: 4px;
+  stroke-dashoffset: 2px;
+  animation: rainbow-orange 15s ease infinite;
+}
+
+@keyframes rainbow-orange {
+
+  0% {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dasharray: 4px;
+    stroke-dashoffset: 2px;
+  }
+
+}
+
+
+
+
+
+
+
+
 
 
 
