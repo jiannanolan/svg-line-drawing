@@ -1,0 +1,90 @@
+html {
+  font-family: "Unica One", sans-serif;
+}
+body {
+  margin: 0;
+}
+
+h1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+#narwhal {
+  animation: narwhal 15s ease infinite;
+}
+
+@keyframes narwhal {
+
+  0% {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dasharray: 4px;
+    stroke-dashoffset: 2px;
+  }
+
+}
+
+#narwhal-body {
+  animation: narwhal-body 15s ease infinite;
+}
+
+@keyframes narwhal-body {
+
+  0% {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dasharray: 4px;
+    stroke-dashoffset: 2px;
+  }
+
+}
+
+
+#narwhal-eye {
+  animation: narwhal-eye 15s ease infinite;
+}
+
+@keyframes narwhal-eye {
+
+  0% {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dasharray: 4px;
+    stroke-dashoffset: 2px;
+  }
+
+}
+
+
+
+
+#rainbow-violet {
+  stroke-dasharray: 4px;
+  stroke-dashoffset: 2px;
+  animation: rainbow-violet 15s ease infinite;
+}
+
+@keyframes rainbow-violet{
+
+  0% {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dasharray: 4px;
+    stroke-dashoffset: 2px;
+  }
+
+}
