@@ -169,7 +169,6 @@ h1 {
 
 }
 
-
 #rainbow-orange {
   stroke-dasharray: 4px;
   stroke-dashoffset: 2px;
@@ -196,7 +195,7 @@ h1 {
   animation: rainbow-violet 15s ease infinite;
 }
 
-@keyframes rainbow-violet{
+@keyframes rainbow-violet {
 
   0% {
     stroke-dasharray: 0;
