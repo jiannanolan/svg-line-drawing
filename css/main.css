@@ -1,6 +1,7 @@
 html {
   font-family: "Unica One", sans-serif;
 }
+
 body {
   margin: 0;
 }
@@ -31,6 +32,8 @@ h1 {
 
 #narwhal-body {
   animation: narwhal-body 15s ease infinite;
+  stroke-dasharray: 0;
+  stroke-dashoffset: 0;
 }
 
 @keyframes narwhal-body {
@@ -47,9 +50,9 @@ h1 {
 
 }
 
-
 #narwhal-eye {
   animation: narwhal-eye 15s ease infinite;
+  opacity: 2;
 }
 
 @keyframes narwhal-eye {
@@ -186,16 +189,6 @@ h1 {
   }
 
 }
-
-
-
-
-
-
-
-
-
-
 
 #rainbow-violet {
   stroke-dasharray: 4px;
