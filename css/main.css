@@ -1,63 +1,213 @@
-html {
-  font-family: "Unica One", sans-serif;
-}
-
-body {
-  margin: 0;
-}
-
 h1 {
+  font-family: "Unica One", sans-serif;
   position: absolute;
-  left: 0;
-  right: 0;
+  z-index: 8;
+  color: #fff;
+  max-width: 250px;
+  left: 50px;
+  bottom: 400px;
+  opacity: 0;
+  animation: text 1s .3 linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes text {
+
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+
 }
 
 #narwhal {
-  animation: narwhal 15s ease infinite;
+  animation: narwhal 1.5s linear;
+  animation-fill-mode: forwards;
+  stroke-dasharray: 1982px;
+  stroke-dashoffset: 1982px;
 }
 
 @keyframes narwhal {
 
-  0% {
-    stroke-dasharray: 0;
-    stroke-dashoffset: 0;
+  from {
+    stroke-dasharray: 100%;
   }
 
-  100% {
-    stroke-dasharray: 4px;
-    stroke-dashoffset: 2px;
+  to {
+    stroke-dasharray: 0%;
   }
 
 }
-narwhal-body {
-  animation: narwhal-body 15s ease infinite;
-  stroke-dasharray: 0;
-  stroke-dashoffset: 0;
+
+#narwhal-body {
+  animation: narwhalbody 1.5s linear;
+  animation-fill-mode: forwards;
+  stroke-dasharray: 1982px;
+  stroke-dashoffset: 1982px;
 }
 
-@keyframes narwhal-body {
+@keyframes narwhalbody {
 
-  0% {
-    stroke-dasharray: 0;
-    stroke-dashoffset: 0;
+  from {
+    stroke-dashoffset: 100%;
   }
 
-  100% {
-    stroke-dasharray: 4px;
-    stroke-dashoffset: 2px;
+  to {
+    stroke-dashoffset: 0%;
   }
 
 }
 
 #narwhal-eye {
-  animation: narwhal-eye 15s ease infinite;
-  opacity: 2;
+  opacity: 0;
+  animation: narwhaleye 1s .3s ease;
+  animation-fill-mode: forwards;
 }
 
-@keyframes narwhal-eye {
+@keyframes narwhaleye {
 
-  0% {
-    stroke-dasharray: 0;
-    stroke-dashoffset: 0;
+  from {
+    opacity: 0;
   }
+
+  to {
+    opacity: 1;
+  }
+
+}
+
+#rainbow-indigo {
+  animation: rainbowindigo 1.5s linear;
+  animation-fill-mode: forwards;
+  stroke-dasharray: 1813px;
+  stroke-dashoffset: 1813px;
+}
+
+@keyframes rainbowindigo {
+
+  from {
+    stroke-dasharray: 100%;
+  }
+
+  to {
+    stroke-dasharray: 0%;
+  }
+
+}
+
+#rainbow-violet {
+  animation: rainbowviolet 1.5s linear;
+  animation-fill-mode: forwards;
+  stroke-dasharray: 1813px;
+  stroke-dashoffset: 1813px;
+}
+
+@keyframes rainbowviolet {
+
+  from {
+    stroke-dasharray: 100%;
+  }
+
+  to {
+    stroke-dasharray: 0%;
+  }
+
+}
+
+#rainbow-blue {
+  animation: rainbowblue 1.5s linear;
+  animation-fill-mode: forwards;
+  stroke-dasharray: 1706px;
+  stroke-dashoffset: 1706px;
+}
+
+@keyframes rainbowblue {
+
+  from {
+    stroke-dasharray: 100%;
+  }
+
+  to {
+    stroke-dasharray: 0%;
+  }
+
+}
+
+#rainbow-green {
+  animation: rainbowgreen 1.5s linear;
+  animation-fill-mode: forwards;
+  stroke-dasharray: 1596px;
+  stroke-dashoffset: 1596px;
+}
+
+@keyframes rainbowgreen {
+
+  from {
+    stroke-dasharray: 100%;
+  }
+
+  to {
+    stroke-dasharray: 0%;
+  }
+
+}
+
+#rainbow-yellow {
+  animation: rainbowyellow 1.5s linear;
+  animation-fill-mode: forwards;
+  stroke-dasharray: 1484px;
+  stroke-dashoffset: 1484px;
+}
+
+@keyframes rainbowyellow {
+
+  from {
+    stroke-dasharray: 100%;
+  }
+
+  to {
+    stroke-dasharray: 0%;
+  }
+
+}
+
+#rainbow-orange {
+  animation: rainboworange 1.5s linear;
+  animation-fill-mode: forwards;
+  stroke-dasharray: 1366px;
+  stroke-dashoffset: 1366px;
+}
+
+@keyframes rainboworange {
+
+  from {
+    stroke-dasharray: 100%;
+  }
+
+  to {
+    stroke-dasharray: 0%;
+  }
+
+}
+
+#rainbow-red {
+  animation: rainbowred 1.5s linear;
+  animation-fill-mode: forwards;
+  stroke-dasharray: 1243px;
+  stroke-dashoffset: 1243px;
+}
+
+@keyframes rainbowred {
+
+  from {
+    stroke-dasharray: 100%;
+  }
+
+  to {
+    stroke-dasharray: 0%;
+  }
+
 }
